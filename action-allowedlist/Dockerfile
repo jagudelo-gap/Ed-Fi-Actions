@@ -3,7 +3,7 @@
 # The Ed-Fi Alliance licenses this file to you under the Apache License, Version 2.0.
 # See the LICENSE and NOTICES files in the project root for more information.
 
-FROM python:3.9.19-alpine3.20@sha256:f2fffcd6d67fe80dbc4e82b49ab3797791aac8d6f2b9520426fc8b260cb47997
+FROM python:3.11-alpine3.20@sha256:95040093b88eea0af546de5a6e7c714f976b0e5c8e79cc104df8f796354eb276
 
 RUN mkdir /app
 COPY ./ /app/
